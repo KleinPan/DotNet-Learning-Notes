@@ -1,7 +1,6 @@
 # Collections
 
 ReactiveUI recommends the use of DynamicData framework for collection based operations. DynamicData has replaced internally the use of ReactiveList
-
 ReactiveUI建议将DynamicData框架用于基于集合的操作。 DynamicData已在内部替换了ReactiveList的使用
 
 ## Overview of Dynamic Data
@@ -16,7 +15,7 @@ The changes sets are published as an IObservable<ChangeSet>.
 更改集将作为IObservable <ChangeSet>发布。
 
 This basic signature is the monad of Dynamic Data on which a rich set of Linq operators are provided which enable declarative querying and manipulation of data as it changes, and in a thread safe manner.
-这个基本签名是动态数据的monad，在其上提供了丰富的Linq运算符集，它们可以在数据发生变化时以线程安全的方式进行声明性查询和操作。
+这个基本签名是动态数据的单体，在这个单体上提供了一组丰富的Linq操作符，可以在数据发生变化时以线程安全的方式进行声明性查询和操作。
 
 ### Maintaining and consuming data
 
